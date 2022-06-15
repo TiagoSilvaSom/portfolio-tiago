@@ -165,9 +165,6 @@ ul li {
     padding: 100px 0;
 }
 
-#portfolio .portfolio-header h1 {
-    margin-bottom: 50px;
-}
 
 #portfolio .all-projects {
     display: flex;
@@ -206,8 +203,9 @@ ul li {
 
 #portfolio .project-info h2 {
     font-size: 1.8rem;
-    font-weight: 500;
-    margin-top: 10px;
+    font-weight: 500;   
+    margin-bottom: 1rem;
+    padding-top: .5rem;
 }
 
 
