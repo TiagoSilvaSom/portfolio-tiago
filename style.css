@@ -22,12 +22,14 @@ img {
     object-fit: cover;
 }
 
-p {
+ul li {
+    display: block;   
     font-size: 1.4rem;
-    margin-top: 5px;
-    line-height: 2.5rem;
-    font-weight: 200;
+    margin-top: 0;
+    line-height: 1.8rem;
+    font-weight: 100;
     letter-spacing: 0.05rem;
+    margin-bottom: 0;    
 }
 
 .container {
@@ -47,6 +49,23 @@ p {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     text-align: center;
+}
+
+.project-info h1 {    
+    padding-top: 2rem;
+    padding-bottom: -2rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: black;    
+}
+
+.project-info h2 {    
+    padding-top: 0;
+    padding-bottom: -2rem;
+    margin-top: -2rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    color: black;    
 }
 
 /* SEÇÃO DE APRESENTAÇÃO */
@@ -139,7 +158,7 @@ p {
 
 /* SEÇÃO DE PORTIFÓLIO*/
 
-#portfolio .portfolio {
+#portfolio .portfolio-container {
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
@@ -177,7 +196,7 @@ p {
     justify-content: center;
     flex-direction: column;
     background-image: linear-gradient(60deg, #fc8a61 0%, #d83a00 100%);
-    color: white;
+    color: white;    
 }
 
 #portfolio .project-info h1 {
