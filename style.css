@@ -68,6 +68,15 @@ ul li {
     color: black;    
 }
 
+.end-page {
+    width: 100%;
+    min-height: 30rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
 /* SEÇÃO DE APRESENTAÇÃO */
 
 #presentation {
