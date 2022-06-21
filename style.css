@@ -68,15 +68,6 @@ ul li {
     color: black;    
 }
 
-.end-page {
-    width: 100%;
-    min-height: 30rem;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 2rem;
-}
-
 /* SEÇÃO DE APRESENTAÇÃO */
 
 #presentation {
@@ -236,7 +227,7 @@ ul li {
 
 #portfolio .project-image {
     flex-basis: 50%;
-    height: 300px;
+    height: 200px;
     overflow: hidden;
     position: relative;
 }
@@ -262,6 +253,77 @@ ul li {
 
 }
 
+/* SEÇÃO DE RODAPÉ */
+
+#end-page {
+    width: 100%;
+    min-height: 30rem;
+    background-color: black;
+    padding: 2rem;
+}
+
+#end-page h2 {
+    color:white;
+    font-size: 2em;    
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+
+#end-page .end-group {
+    display: inline-flex;
+}
+
+#end-page .social-media {
+    float: left;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+#end-page .social-media a {
+    display: block;
+    color: white; 
+    font-size: 2rem;
+    padding: 5px 3px;   
+    width: 8rem;  
+}
+
+#end-page .social-media a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 8px;
+}
+
+#end-page .perfil img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100px;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 45rem;        
+}
+
+#end-page .contact {   
+    float: right;
+    margin-top: 5rem;
+    margin-left: 41rem;
+    margin-right: 5rem;
+    font-size: 2rem;
+}
+
+#end-page .contact a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 8px;
+}
+
+#end-page .contact a {
+    display: block;
+    color: white; 
+    font-size: 2rem;
+    padding: 5px 3px;   
+    width: 8rem; 
+}
 
 /* KEYFRAMES */
 @keyframes text_reveal {
