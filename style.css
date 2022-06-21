@@ -189,9 +189,25 @@ ul li {
     flex-direction: column;
     width: 80%;
     margin: 20px auto;
-    overflow: hidden;
-    border-radius: 10px;    
+    overflow: hidden;        
 }
+
+#portfolio .project-item:nth-child(1) {
+    border-top-left-radius: 10px;
+}
+
+#portfolio .project-item:nth-child(1) .project-image {
+    border-top-right-radius: 10px;
+}
+
+#portfolio .project-item:nth-child(3) {
+    border-bottom-left-radius: 10px;
+}
+
+#portfolio .project-item:nth-child(3) .project-image {
+    border-bottom-right-radius: 10px;
+}
+
 
 #portfolio .project-info {
     padding: 30px;
